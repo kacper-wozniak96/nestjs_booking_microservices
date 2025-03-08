@@ -41,6 +41,8 @@ export abstract class AbstractRepository<TDocument extends AbstractDocument> {
       throw new NotFoundException('Document not found.');
     }
 
+    console.log('adasdasd');
+
     return document;
   }
 
