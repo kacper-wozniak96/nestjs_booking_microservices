@@ -23,7 +23,6 @@ export class ReservationsController {
     @Body() createReservationDto: CreateReservationDto,
     @CurrentUser() user: UserDto,
   ) {
-    console.log('running reservations create ');
     return this.reservationsService.create(createReservationDto, user._id);
   }
 
