@@ -22,6 +22,7 @@ A robust and modular API built with NestJS, designed for handling reservation wo
 - **Authentication**: JWT (JSON Web Tokens)
 - **Payments**: Stripe
 - **Database**: MongoDB (with Mongoose)
+- **Message Broker**: RabbitMQ
 
 ## Getting Started
 
