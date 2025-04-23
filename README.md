@@ -17,12 +17,12 @@ A robust and modular API built with NestJS, designed for handling reservation wo
 
 - **Framework**: [NestJS](https://nestjs.com/)
 - **Microservices**: Native NestJS microservice architecture
+- **Message Broker**: RabbitMQ
 - **Email Service**: Nodemailer
 - **Validation**: Joi
 - **Authentication**: JWT (JSON Web Tokens)
 - **Payments**: Stripe
 - **Database**: MongoDB (with Mongoose)
-- **Message Broker**: RabbitMQ
 
 ## Getting Started
 
