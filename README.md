@@ -47,3 +47,40 @@ JWT_SECRET=jwtsecret
 JWT_EXPIRATION=3600
 HTTP_PORT=3001
 RABBITMQ_URI=amqp://user:pass@rabbitmq:5672
+```
+
+### 2. Notification Service
+
+Responsible for sending email notifications using OAuth2-authenticated SMTP and handling user communication flows.
+
+**.env**
+```env
+PORT=3004
+GOOGLE_OAUTH_CLIENT_ID=your_google_client_id
+GOOGLE_OAUTH_CLIENT_SECRET=your_google_client_secret
+GOOGLE_OAUTH_REFRESH_TOKEN=your_refresh_token
+SMTP_USER=your_email@example.com
+RABBITMQ_URI=amqp://user:pass@rabbitmq:5672
+```
+
+### 3. Reservation Service
+
+Handles reservation logic.
+
+**.env**
+```env
+MONGODB_URI=mongodb://user:pass@mongo:27017/sleepr?authSource=admin
+PORT=3000
+RABBITMQ_URI=amqp://user:pass@rabbitmq:5672
+```
+
+### 4. Payments Service
+
+Manages Stripe transactions and payment confirmation logic.
+
+**.env**
+```env
+PORT=3003
+STRIPE_SECRET_KEY=your_stripe_secret_key
+RABBITMQ_URI=amqp://user:pass@rabbitmq:5672
+```
