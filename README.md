@@ -1,4 +1,4 @@
-# Reservation API
+# Booking service
 
 A robust and modular API built with NestJS, designed for handling reservation workflows with a focus on scalability, maintainability, and security. The architecture leverages microservices, containerization, and industry-standard libraries to ensure seamless integration and high availability.
 
