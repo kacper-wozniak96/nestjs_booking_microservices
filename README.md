@@ -84,3 +84,12 @@ PORT=3003
 STRIPE_SECRET_KEY=your_stripe_secret_key
 RABBITMQ_URI=amqp://user:pass@rabbitmq:5672
 ```
+
+## Running the Application
+
+This project is fully containerized and orchestrated using Docker Compose. All services (API, microservices, MongoDB, RabbitMQ) can be launched with a single command.
+
+In the root directory of the project, run:
+
+```bash
+docker-compose up --build
