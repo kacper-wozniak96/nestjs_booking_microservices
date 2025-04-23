@@ -36,9 +36,14 @@ A robust and modular API built with NestJS, designed for handling reservation wo
 
 Create a `.env` file in the root directory and configure the following variables:
 
+### 1. Auth Service
+
+Handles authentication, JWT issuance, and user identity validation.
+
+**.env**
 ```env
-MONGO_URI=mongodb://mongo:27017/reservations
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret
-SMTP_USER=your_email@example.com
-SMTP_PASS=your_email_password
+MONGODB_URI=mongodb://user:pass@mongo:27017/sleepr?authSource=admin
+JWT_SECRET=jwtsecret
+JWT_EXPIRATION=3600
+HTTP_PORT=3001
+RABBITMQ_URI=amqp://user:pass@rabbitmq:5672
