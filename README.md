@@ -19,7 +19,7 @@ A robust and modular API built with NestJS, designed for handling reservation wo
 - **Microservices**: Native NestJS microservice architecture
 - **Containerization**: Docker, Docker Compose
 - **Email Service**: Nodemailer
-- **Validation**: Zod
+- **Validation**: Joi
 - **Authentication**: JWT (JSON Web Tokens)
 - **Payments**: Stripe
 - **Database**: MongoDB (with Mongoose)
