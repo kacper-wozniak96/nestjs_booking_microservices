@@ -17,7 +17,6 @@ A robust and modular API built with NestJS, designed for handling reservation wo
 
 - **Framework**: [NestJS](https://nestjs.com/)
 - **Microservices**: Native NestJS microservice architecture
-- **Containerization**: Docker, Docker Compose
 - **Email Service**: Nodemailer
 - **Validation**: Joi
 - **Authentication**: JWT (JSON Web Tokens)
