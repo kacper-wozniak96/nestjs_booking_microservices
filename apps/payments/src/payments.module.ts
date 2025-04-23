@@ -12,9 +12,8 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
       isGlobal: true,
       validationSchema: Joi.object({
         PORT: Joi.number().required(),
-        NOTIFICATIONS_HOST: Joi.string().required(),
-        NOTIFICATIONS_PORT: Joi.number().required(),
         STRIPE_SECRET_KEY: Joi.string().required(),
+        RABBITMQ_URI: Joi.string().required(),
       }),
     }),
     LoggerModule,
