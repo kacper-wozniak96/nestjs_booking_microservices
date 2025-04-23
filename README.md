@@ -43,7 +43,7 @@ Handles authentication, JWT issuance, and user identity validation.
 **.env**
 ```env
 MONGODB_URI=mongodb://user:pass@mongo:27017/sleepr?authSource=admin
-JWT_SECRET=jwtsecret
+JWT_SECRET=your_jwtsecret
 JWT_EXPIRATION=3600
 HTTP_PORT=3001
 RABBITMQ_URI=amqp://user:pass@rabbitmq:5672
