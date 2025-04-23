@@ -8,7 +8,7 @@ A robust and modular API built with NestJS, designed for handling reservation wo
 - **Microservices Architecture**: Decoupled services for enhanced scalability and resilience.
 - **Authentication & Authorization**: Secure access via JWT-based authentication.
 - **Email Notifications**: Automated email handling through Nodemailer.
-- **Validation**: Data validation and parsing using Zod.
+- **Validation**: Data validation and parsing using Joi.
 - **Payments**: Integrated Stripe support for handling transactions.
 - **Database**: MongoDB for flexible and performant data storage.
 - **Containerized Deployment**: Docker-based environment for both development and production.
